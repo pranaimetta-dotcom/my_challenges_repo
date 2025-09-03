@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Universal Mobile Factory</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
+    }
+
+    header {
+      background-color: #0077cc;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .section {
+      padding: 20px;
+    }
+
+    .section h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .section p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .products {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .product {
+      background-color: #ffffff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .product h3 {
+      margin-top: 0;
+      font-size: 18px;
+    }
+
+    .product ul {
+      margin-top: 10px;
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      color: #666;
+      background-color: #e0e0e0;
+    }
+
+    @media (min-width: 600px) {
+      .products {
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+
+      .product {
+        flex: 1 1 calc(50% - 30px);
+        margin: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Universal Mobile Factory</h1>
+    <p>All Types of Mobiles Manufactured in One Place</p>
+  </header>
+
+  <div class="section">
+    <h2>About Us</h2>
+    <p>We are a leading mobile phone manufacturing facility, producing a wide range of devices including smartphones, feature phones, rugged phones, tablets, and IoT devices. Our goal is to deliver high-quality and customizable mobile technology to brands and businesses worldwide.</p>
+  </div>
+
+  <div class="section">
+    <h2>Our Products</h2>
+    <div class="products">
+      <div class="product">
+        <h3>Smartphones</h3>
+        <p>Android and iOS-based high-performance smartphones:</p>
+        <ul>
+          <li>Galaxy S22 Ultra</li>
+          <li>iPhone 14 Pro Max</li>
+          <li>OnePlus 12</li>
+          <li>Xiaomi Mi 13</li>
+        </ul>
+      </div>
+      <div class="product">
+        <h3>Feature Phones</h3>
+        <p>Reliable and affordable phones:</p>
+        <ul>
+          <li>Nokia 110 4G</li>
+          <li>itel Magic 2</li>
+          <li>Micromax X512</li>
+          <li>Samsung Guru Music 2</li>
+        </ul>
+      </div>
+      <div class="product">
+        <h3>Rugged Phones</h3>
+        <p>Built to survive extreme environments:</p>
+        <ul>
+          <li>CAT S62 Pro</li>
+          <li>Ulefone Armor 11</li>
+          <li>DOOGEE S98</li>
+          <li>Blackview BV8800</li>
+        </ul>
+      </div>
+      <div class="product">
+        <h3>Tablets & IoT Devices</h3>
+        <p>Smart devices for every need:</p>
+        <ul>
+          <li>iPad Air 5</li>
+          <li>Samsung Galaxy Tab S9</li>
+          <li>Lenovo Tab M10</li>
+          <li>IoT Sensor Hub v2.0</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Contact Us</h2>
+    <p>Email: contact@universalmobilefactory.com</p>
+    <p>Phone: +1 (800) 123-4567</p>
+    <p>Location: Tech Industrial Park, Electronics City, India</p>
+  </div>
+
+  <footer>
+    &copy; 2025 Universal Mobile Factory. All rights reserved.
+  </footer>
+
+</body>
+</html>
